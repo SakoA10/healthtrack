@@ -26,3 +26,42 @@ Daily Log Detail: Dynamic page for each day’s detailed entries.
 Progress: Weekly summary with charts for meals, exercises, and water intake.
 
 Contact: Contact information or feedback form placeholder.
+
+## Setup Instructions
+
+1. Clone the repository:
+   git clone https://github.com/SakoA10/healthtrack.git
+
+2. Go inside the project folder:
+   cd healthtrack
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm start
+
+5. Open your browser and go to:
+   http://localhost:3000
+
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### About Page
+
+![About](screenshots/about.png)
+
+### Daily Log Page
+
+![Daily Log](screenshots/daily-log.png)
+
+### Progress Page
+
+![Progress](screenshots/progress.png)
+
+### Contact Page
+
+![Contact](screenshots/contact.png)
