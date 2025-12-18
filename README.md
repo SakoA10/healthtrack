@@ -65,3 +65,41 @@ Contact: Contact information or feedback form placeholder.
 ### Contact Page
 
 ![Contact](screenshots/contact.png)
+
+## Backend (Phase 2)
+
+### Backend Tech
+
+- Node.js + Express
+- MySQL (phpMyAdmin)
+- JWT Authentication (Signup/Login)
+- CRUD API for Logs
+
+### Backend Setup
+
+1. Go to backend folder:
+   cd server
+
+2. Install dependencies:
+   npm install
+
+3. Create a `.env` file inside `server/`:
+   PORT=5000
+   JWT_SECRET=your_secret_here
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=
+   DB_NAME=healthtrack_db
+
+4. Run the backend:
+   npm run dev
+
+### API Endpoints
+
+- POST /api/auth/signup
+- POST /api/auth/login
+- POST /api/logs (protected)
+- GET /api/logs (protected)
+- GET /api/logs/:date (protected)
+- PUT /api/logs/:date (protected)
+- DELETE /api/logs/:date (protected)
