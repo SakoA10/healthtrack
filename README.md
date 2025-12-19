@@ -103,3 +103,11 @@ Contact: Contact information or feedback form placeholder.
 - GET /api/logs/:date (protected)
 - PUT /api/logs/:date (protected)
 - DELETE /api/logs/:date (protected)
+
+## Backend (Phase 2) Screenshots
+
+![Login](screenshots/phase2/login.png)
+![DB Connected](screenshots/phase2/db-connected.png)
+![Create Log](screenshots/phase2/create-log.png)
+![Get Logs](screenshots/phase2/get-logs.png)
+![phpMyAdmin Tables](screenshots/phase2/phpmyadmin-tables.png)
